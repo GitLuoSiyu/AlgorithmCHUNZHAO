@@ -2,6 +2,9 @@
 
 
 
+#学号: G20210541020087
+#班级:春招
+#作业链接: https://github.com/GitLuoSiyu/AlgorithmCHUNZHAO/tree/main/Week_01
 
 ## 仓库目录结构说明
 
