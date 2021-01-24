@@ -1,7 +1,5 @@
 # 极客大学「算法训练营-春招班」作业提交仓库
 
-
-
 #学号: G20210541020087
 #班级:春招
 #作业链接: https://github.com/GitLuoSiyu/AlgorithmCHUNZHAO/tree/main/Week_01
@@ -22,7 +20,7 @@
 
 详细的作业提交流程可以查阅：https://shimo.im/docs/m5rtM8K8rNsjw5jk/ 
 
-
 ## 注意事项
 
  如果对 Git 和 GitHub 不太了解，请参考 [Git 官方文档](https://git-scm.com/book/zh/v2) 或者极客时间的[《玩转 Git 三剑客》](https://time.geekbang.org/course/intro/145)视频课程。
+
