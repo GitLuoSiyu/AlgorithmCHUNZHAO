@@ -19,5 +19,5 @@ function getWeek(day, month, year) {
         month += 12
             --year
     }
-    return (day + startWeek + 2 * m + Math.floor(3 * (month + 1) / 5) + year + Math.floor(year / 4) - Math.floor(year / 100) + Math.floor(year / 400)) % 7
+    return (day + startWeek + 2 * month + Math.floor(3 * (month + 1) / 5) + year + Math.floor(year / 4) - Math.floor(year / 100) + Math.floor(year / 400)) % 7
 }
