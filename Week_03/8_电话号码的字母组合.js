@@ -18,16 +18,18 @@ var letterCombinations = function (digits) {
         '9': 'wxyz'
     };
 
-    const dfs = (curStr, i) => { // curStr是当前字符串，i是扫描的指针
-        if (i > digits.length - 1) { // 指针越界，递归的出口
-            res.push(curStr); // 将解推入res
-            return; // 结束当前递归分支
+    const dfs = (curStr, i) => { 
+        // curStr是当前字符串，i是扫描的指针
+        if (i > digits.length - 1) { 
+            res.push(curStr); 
+            return; 
         }
-        const letters = map[digits[i]]; // 当前数字对应的字母
-        for (const l of letters) { // 一种字母对应一个递归分支
-            dfs(curStr + l, i + 1); // 生成新字符串，i指针右移，递归
+        const letters = map[digits[i]]; 
+        // 当前数字对应的字母
+        for (const l of letters) {
+            dfs(curStr + l, i + 1); 
         }
     };
-    dfs('', 0); // 递归的入口，初始字符串为''，指针为0
+    dfs('', 0); 
     return res
 };
