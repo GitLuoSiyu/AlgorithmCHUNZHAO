@@ -1,4 +1,6 @@
 /**
+ * @title 874. 模拟行走机器人
+ * @url https://leetcode-cn.com/problems/walking-robot-simulation/description/
  * @param {number[]} commands
  * @param {number[][]} obstacles
  * @return {number}
