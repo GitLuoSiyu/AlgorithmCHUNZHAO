@@ -1,0 +1,23 @@
+<!-- 
+BFC （Block Format Context，块级格式化上下文）是一块独立的渲染区域，内部元素的渲染不会影响边界以外的元素。
+
+触发条件：
+
+float 值非 None
+position 的值为 absolute，fixed
+overflow 的值非 visible，如 overflow，hidden 均可触发；
+display 值为 flex、inline-block，table-cell，table-caption，inline-flex
+特性：
+
+属于同一个 BFC 的两个相邻容器的上下 margin 会重叠
+计算 BFC 高度时浮动元素也参与计算
+BFC 的区域不会与浮动容器发生重叠
+应用：清除浮动。
+
+定位：position 都有哪些值？absolute 和 relative 的区别是什么?
+absolute：绝对定位，依据最近一层的定位元素定位，脱离了文档流；子绝父相，滚动的话也会跟着滚动；
+relative：相对定位，依据自身定位，未脱离文档流；
+static：默认值，使用正常的布局行为；
+fixed：移出文档流，依据在视口中的位置进行定位；比如广告，它是固定视口。
+sticky：粘性定位，想要生效，设置 top，left，right，bottom 的任意一个属性的值即可。
+-->
